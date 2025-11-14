@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Bandler Trader</title>
+    <style>
+        body {
+            background: #070617;
+            color: white;
+            font-family: Arial;
+            text-align: center;
+            padding: 20px;
+            direction: rtl;
+        }
+        .card {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        button {
+            background: linear-gradient(90deg, #06b6d4, #7c3aed);
+            color: white;
+            border: none;
+            padding: 15px;
+            border-radius: 8px;
+            width: 100%;
+            margin: 10px 0;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>🚀 Bandler Trader</h1>
+        <p>التطبيق جاهز على GitHub Pages!</p>
+    </div>
+    
+    <div class="card">
+        <button onclick="test()">تجربة التطبيق</button>
+        <div id="log"></div>
+    </div>
+
+    <script>
+        function test() {
+            document.getElementById('log').innerHTML = 
+                '✅ التطبيق يعمل بنجاح!<br>جاري تحميل الإصدار الكامل...';
+        }
+    </script>
+</body>
+</html>
